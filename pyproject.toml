@@ -1,0 +1,9 @@
+[project]
+name = "hirelens-ats-scanner"
+version = "2.0.0"
+description = "Explainable ATS resume matching with deterministic scoring and optional Groq insights"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
